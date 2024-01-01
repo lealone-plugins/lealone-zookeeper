@@ -3,10 +3,10 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.zookeeper.test;
+package com.lealone.plugins.zookeeper.test;
 
 import org.junit.Test;
-import org.lealone.test.TestBase;
+import com.lealone.test.TestBase;
 
 public class ZooKeeperTest extends TestBase {
     @Test

@@ -3,10 +3,10 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.zookeeper.server;
+package com.lealone.plugins.zookeeper.server;
 
-import org.lealone.server.ProtocolServer;
-import org.lealone.server.ProtocolServerEngineBase;
+import com.lealone.server.ProtocolServer;
+import com.lealone.server.ProtocolServerEngineBase;
 
 public class ZooKeeperServerEngine extends ProtocolServerEngineBase {
 
