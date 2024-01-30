@@ -21,7 +21,7 @@ public class ZooKeeperServerConnection extends AsyncServerConnection {
 
     protected ZooKeeperServerConnection(ZooKeeperServer server, WritableChannel writableChannel,
             Scheduler scheduler) {
-        super(writableChannel, true);
+        super(writableChannel);
         this.server = server;
         this.scheduler = scheduler;
     }
